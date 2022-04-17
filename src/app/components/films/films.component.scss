@@ -1,0 +1,27 @@
+.films{
+  padding: 20px;
+}
+
+.filmsGallery{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &__item{
+      display: flex;
+      align-items: center;
+    }
+}
+
+img{
+  margin-top: 5px;
+  width: 210px;
+  height: 110px;
+}
+
+h2{
+  color: white;
+  font-size: 18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
